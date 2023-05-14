@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     MaterialButton buttonAC;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) { //buttons
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         solutiontv=findViewById(R.id.solution_textview);
